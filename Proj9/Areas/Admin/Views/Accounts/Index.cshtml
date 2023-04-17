@@ -1,0 +1,58 @@
+﻿@{
+    Layout = null;
+}
+<head>
+    <title>Admin - Login</title>
+    <link href="~/assets/css/toastr-min.css" rel="stylesheet" />
+    <link href="~/assets/css/admin/login.css" rel="stylesheet" />
+    <script src="~/assets/js/toastr/toastr-jquery.js"></script>
+    <script src="~/assets/js/toastr/toastr-js.js"></script>
+    <link rel="shortcut icon" type="image/png" href="~/assets/images/icon/favicon.ico">
+</head>
+
+<div class="main-container">
+    @*<div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>*@
+
+
+    @*   Add this class for right panel active 'right-panel-active'   *@
+    <div class="container bg-img " style="background-color: transparent;">
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">Sign In</h2>
+                <input type="email" placeholder="Email" id="signin-email" class="input" />
+                <label class="signin-email-msg" style=" font-size: 10px; color: red;"></label>
+                <input type="password" placeholder="Password" id="signin-password" class="input" />
+                <label class="signin-pass-msg" style=" font-size: 10px; color: red;"></label>
+                <a href="#" class="link">Forgot your password?</a>
+                <button class="btn" id="login"> Sign In</button>
+            </form>
+        </div>
+
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1" autocomplete="off">
+                <h2 class="form__title">Sign Up</h2>
+                <input type="text" placeholder="User" class="input" />
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="Password" class="input" />
+                <button class="btn">Sign Up</button>
+            </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/assets/js/admin/login.js"></script>

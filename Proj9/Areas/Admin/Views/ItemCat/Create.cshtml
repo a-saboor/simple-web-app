@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = null;
+}
+
+<form action="ItemCat/Create" class="form" method="post" autocomplete="off" enctype="multipart/form-data" id="itemcat-create">
+    <div class="row">
+        <div class="col-md-5 form-group">
+            <label class="control-label">Name</label>
+            <input type="text" class="form-control" id="Name" name="Name" required />
+        </div>
+
+
+    </div><hr />
+    <div class="row form-group">
+        <div class="col-12">
+            <button type="button" class="btn btn-secondary btn-sm btn-close" data-dismiss="modal" aria-label="Close">Close</button>
+            <input type="submit" class="btn btn-lg btn-success float-right" value="Save" />
+        </div>
+    </div>
+</form>
+
+<script>
+    $("#itemcat-create").submit(function (e) {
+        e.preventDefault();
+        let actionurl = e.currentTarget.action;
+        $.ajax({
+            url: actionurl,
+            type: 'post',
+            dataType: 'json',
+            data: $("#itemcat-create").serialize(),
+            success: function (data) {
+                if(data.success)
+                {toastr.success(data.msg);$("#popup-modal").modal('hide');}
+                else
+                    toastr.error(data.msg);
+
+            },
+            error: function( jqXhr, textStatus, errorThrown ){
+                toastr.error('Internal server error..!');
+            }
+        });
+    });
+</script>

@@ -1,0 +1,31 @@
+﻿::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1d62fdbd !important;
+    border-radius: 2px;
+}
+
+select[name=dataTable2_length] {
+    padding-right: 20px;
+}
+
+.user-profile {
+    background :#007bff
+}
+
+/*              ****** Custome CSS for DataTable******               */
+.text-capitalize {
+    font-size: 15px;
+    font-family: lato,sans-serif;
+}
+
+.datatable-primary thead {
+    background: #007bff;
+}
+

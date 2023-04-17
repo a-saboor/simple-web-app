@@ -1,0 +1,15 @@
+C:\Technomites\Projects\Proj9\Proj9.DAL\bin\Release\net5.0\Proj9.DAL.deps.json
+C:\Technomites\Projects\Proj9\Proj9.DAL\bin\Release\net5.0\Proj9.DAL.runtimeconfig.json
+C:\Technomites\Projects\Proj9\Proj9.DAL\bin\Release\net5.0\Proj9.DAL.runtimeconfig.dev.json
+C:\Technomites\Projects\Proj9\Proj9.DAL\bin\Release\net5.0\Proj9.DAL.dll
+C:\Technomites\Projects\Proj9\Proj9.DAL\bin\Release\net5.0\Proj9.DAL.pdb
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.csproj.AssemblyReference.cache
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.AssemblyInfoInputs.cache
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.AssemblyInfo.cs
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.csproj.CoreCompileInputs.cache
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.dll
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\refint\Proj9.DAL.dll
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.pdb
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\Proj9.DAL.genruntimeconfig.cache
+C:\Technomites\Projects\Proj9\Proj9.DAL\obj\Release\net5.0\ref\Proj9.DAL.dll

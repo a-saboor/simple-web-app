@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = null;
+}
+
+<form action="Item/Create" class="form" method="post" autocomplete="off" enctype="multipart/form-data" id="item-create">
+    <div class="row">
+        <div class="col-md-5 form-group">
+            <label class="control-label">Name</label>
+            <input type="text" class="form-control" id="Name" name="Name" required />
+        </div>
+
+        <div class="col-md-3 form-group">
+            <label class="control-label">Quantity</label>
+            <input type="number" class="form-control" id="Qty" name="Qty" min="1" required />
+        </div>
+
+        <div class="col-md-3 form-group">
+            <label class="control-label">Sale Rate</label>
+            <input type="number" class="form-control" id="SaleRate" name="SaleRate" min="1" required />
+        </div>
+
+        <div class="col-md-3 form-group">
+            <label class="control-label">Pur Rate</label>
+            <input type="number" class="form-control" id="PurRate" name="PurRate" min="1" required />
+        </div>
+    </div><hr />
+    <div class="row form-group">
+        <div class="col-12">
+            <button type="button" class="btn btn-secondary btn-sm btn-close" data-dismiss="modal" aria-label="Close">Close</button>
+            <input type="submit" class="btn btn-lg btn-success float-right" value="Save" />
+        </div>
+    </div>
+</form>
+
+<script>
+    $(function () {
+        $("#item-create").submit(function (e) {
+            
+            e.preventDefault();
+            let actionurl = e.currentTarget.action;
+            $.ajax({
+                url: actionurl,
+                type: 'post',
+                dataType: 'application/json',
+                data: $("#item-create").serialize(),
+                success: function (data) {
+
+                }
+            });
+        });
+    });
+</script>

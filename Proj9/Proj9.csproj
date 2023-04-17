@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Admin\Data\**" />
+    <Compile Remove="Areas\Admin\Models\**" />
+    <Compile Remove="Areas\User\Data\**" />
+    <Compile Remove="Areas\User\Models\**" />
+    <Compile Remove="Extras\**" />
+    <Compile Remove="Views\Accounts\**" />
+    <Content Remove="Areas\Admin\Data\**" />
+    <Content Remove="Areas\Admin\Models\**" />
+    <Content Remove="Areas\User\Data\**" />
+    <Content Remove="Areas\User\Models\**" />
+    <Content Remove="Extras\**" />
+    <Content Remove="Views\Accounts\**" />
+    <EmbeddedResource Remove="Areas\Admin\Data\**" />
+    <EmbeddedResource Remove="Areas\Admin\Models\**" />
+    <EmbeddedResource Remove="Areas\User\Data\**" />
+    <EmbeddedResource Remove="Areas\User\Models\**" />
+    <EmbeddedResource Remove="Extras\**" />
+    <EmbeddedResource Remove="Views\Accounts\**" />
+    <None Remove="Areas\Admin\Data\**" />
+    <None Remove="Areas\Admin\Models\**" />
+    <None Remove="Areas\User\Data\**" />
+    <None Remove="Areas\User\Models\**" />
+    <None Remove="Extras\**" />
+    <None Remove="Views\Accounts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proj9.DAL\Proj9.DAL.csproj" />
+    <ProjectReference Include="..\Proj9.Services\Proj9.Services.csproj" />
+  </ItemGroup>
+
+</Project>
