@@ -3,36 +3,6 @@
 <html>
 <head>
 	<title>Readme</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f5f5f5;
-			padding: 20px;
-			margin: 0;
-			box-sizing: border-box;
-		}
-		h1 {
-			font-size: 28px;
-			text-align: center;
-			margin-bottom: 30px;
-			color: #333;
-		}
-		p {
-			font-size: 18px;
-			line-height: 1.5;
-			color: #666;
-			margin-bottom: 20px;
-		}
-		ul {
-			font-size: 18px;
-			color: #666;
-			margin-bottom: 20px;
-		}
-		li {
-			margin-left: 20px;
-			list-style-type: circle;
-		}
-	</style>
 </head>
 <body>
 	<h1>Project Readme</h1>
