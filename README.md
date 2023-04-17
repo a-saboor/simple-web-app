@@ -1,9 +1,6 @@
 # simple-web-app
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Readme</title>
-</head>
 <body>
 	<h1>Project Readme</h1>
 	<p>This project provides a basic structure for a web application that can be extended to meet the specific needs of any project. The application is divided into two modules, Admin and User, and includes a basic UI theme along with simple login and signup screens to provide a starting point for your project.</p>
